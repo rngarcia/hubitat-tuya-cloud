@@ -26,7 +26,7 @@ import groovy.json.JsonOutput
 
 
 metadata {
-    definition(name: 'Tuya IoT Platform (Cloud)', namespace: 'tuya', author: 'Ricardo Garcia + Jonathan Bradshaw + patches') {
+    definition(name: 'Tuya IoT Platform (Cloud)', namespace: 'rng', author: 'Ricardo Garcia + Jonathan Bradshaw + patches') {
         capability 'Initialize'
         capability 'Refresh'
         command 'removeDevices'
